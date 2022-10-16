@@ -1,0 +1,295 @@
+body {
+	background-color: whitesmoke;
+
+}
+
+@font-face {
+	font-family: untlang;
+	src: url("Untlang.ttf");
+}
+
+@font-face {
+	font-family: blacket;
+	src: url("Blacket\ -\ Personal\ use\ Regular.otf");
+}
+
+@font-face {
+	font-family: fresh;
+	src: url("Fresh\ Night.ttf");
+}
+
+.bigbox-one {
+	background-image: url("babyemen.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	min-height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.head-caption {
+	background-color: #d4a373;
+
+	font-family: fresh;
+	padding: 7px;
+	text-shadow: 1px 1px wheat;
+	font-weight: bold;
+	color: darkblue;
+	font-size: 50px;
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.sub-caption {
+	background-color: #d4a373;
+	display: block;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: fresh;
+	padding: 7px;
+	text-shadow: 1px 1px wheat;
+	font-weight: bold;
+	color: darkblue;
+	border-radius: 10px;
+}
+
+.activities {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	font-size: 13px;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dar {
+	width: 100%;
+	padding: 0px 30px 0px 20px;
+	margin: 0px 20px;
+}
+
+.dance {
+	max-width: 100%;
+	padding: 0px 15px;
+}
+
+.market {
+	max-width: 100%;
+	padding: 0px 15px;
+}
+
+.img-dance {
+	width: 30%;
+	padding: 10px 0px;
+	margin: 10px 5px 0px 5px;
+	border-radius: 50%;
+}
+
+.img-dar {
+	width: 30%;
+	padding: 10px 0px;
+	margin: 10px 5px 0px 5px;
+	border-radius: 50%;
+}
+
+.img-oldsanaa {
+	width: 30%;
+	padding: 10px 0px;
+	margin: 10px 5px 0px 5px;
+	border-radius: 50%;
+}
+
+.dance:hover {
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.dar:hover {
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.market:hover {
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.bigbox-two {
+	min-height: 40vh;
+
+
+}
+
+.container {
+	width: 70%;
+	background-color: #fefae0;
+	border: 2px solid darkblue;
+}
+
+.introduction {
+	font-family: blacket;
+	text-decoration: underline;
+	font-weight: bolder;
+	padding-bottom: 15px;
+	text-align: center;
+
+}
+
+.topic {
+	font-family: untlang;
+
+}
+
+.paragraph {
+	font-size: 12px;
+}
+
+
+.card {
+	background-color: #dde5b6;
+	display: flex;
+	width: 40%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	padding: 10px 10px;
+	border-radius: 20px;
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+	border: 1px solid darkblue;
+	box-shadow: 0px 5px
+}
+
+
+#img-profile {
+	width: 30%;
+	margin: 2px 12px 5px 12px;
+	border-radius: 20px;
+	height: 22vh;
+	box-shadow: 3px 4px
+}
+
+.guide {
+	font-weight: bold;
+}
+
+.name {
+	font-weight: bold;
+}
+
+.icon {
+	max-width: 15px;
+	max-height: 15px;
+	padding: 1px 1px;
+	margin: 5px 2.5px;
+}
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+	opacity: 0.7;
+}
+
+@media screen and (max-width: 792px) {
+	.container {
+		width: 100%;
+	}
+
+	.head-caption {
+		font-size: 18;
+	}
+
+	.sub-caption {
+		font-size: 15;
+	}
+
+	.card {
+		max-width: 45%;
+		min-height: 8vh;
+		border: 1px solid black;
+		padding: 5px 5px 0px 5px;
+		box-shadow: 0px 2px
+	}
+
+	.bigbox-one {
+		max-width: 100%;
+		min-height: 25vh;
+	}
+
+	.bigbox-two {
+		max-width: 100%;
+		min-height: 22vh;
+	}
+
+	#img-profile {
+		width: 37%;
+		margin: 2px 10px 5px 0px;
+		border-radius: 10px;
+		height: 9vh;
+		box-shadow: 1px 2px
+	}
+
+	.guide {
+		font-size: 6px;
+		padding: 5px 0px 0px 0px;
+		margin: 0px;
+	}
+
+	.name {
+		font-size: 6px;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.personalinformation {
+		font-size: 7px;
+		padding: 2px 0px 3px 0px;
+		margin: 0px;
+	}
+
+	.icon {
+		max-width: 3px;
+		max-height: 4px;
+		padding: 1px 0px 0px 0px;
+		margin: 0px 1px;
+	}
+
+	.activities {
+		display: block;
+		flex-direction: row;
+		text-align: center;
+		max-width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: cursive;
+	}
+
+	.introduction {
+		font-size: 12px;
+		font-weight: bolder;
+	}
+
+	.paragraph {
+		font-size: 8px;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seri;
+	}
+
+	.topic {
+		font-size: 12px;
+	}
+
+	.dar {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
